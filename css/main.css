@@ -1,3 +1,8 @@
+body {
+    background-image: url('../img/wood.jpg');
+}
+
+
 h1 {
     font-family: 'Shadows Into Light';
 }
@@ -32,6 +37,11 @@ p {
 
 .container {
     background-color: #ffffff;
+    max-width: 1000px;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 5%;
+    margin-top: 2%;
 }
 
 #desktopfooter {
@@ -77,14 +87,14 @@ i {
     padding: 10% 0 10% 0;
 }
 #events p {
-  max-width: 300px;
+  max-width: 325px;
 }
 
 button {
   margin-left: 3%;
   display: block;
   padding: 2%;
-  width: 25%;
+  width: 40%;
   max-width: 200px;
   font-size: 1.2rem;
   font-family: 'Shadows Into Light';
