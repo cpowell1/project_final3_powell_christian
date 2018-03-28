@@ -1,6 +1,7 @@
 #desktopfooter {
-  display: none;
+    display: none;
 }
+
 table {
     width: 100%;
     text-align: center;
@@ -23,12 +24,20 @@ h1 {
 
 h2 {
     font-family: 'Antic Slab';
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+h3 {
+    font-family: 'Antic Slab';
     text-align: center;
     font-size: 0.9rem;
     font-weight: bold;
 }
 
-h3 {
+h4 {
     font-family: 'Antic Slab';
     text-align: center;
     font-size: 0.8rem;
@@ -40,20 +49,20 @@ h3 {
 
 #boarding {
     background-color: #e3e3e3;
-    padding: 10% 0 10% 0;
+    padding: 5% 0 5% 0;
 }
 
 #grooming {
-    padding: 10% 0 10% 0;
+    padding: 5% 0 5% 0;
 }
 
 #daycare {
     background-color: #e3e3e3;
-    padding: 10% 0 10% 0;
+    padding: 5% 0 5% 0;
 }
 
 #training {
-    padding: 10% 0 10% 0;
+    padding: 5% 0 5% 0;
 }
 
 #events {
