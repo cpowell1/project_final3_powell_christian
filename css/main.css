@@ -35,6 +35,10 @@ p {
     padding-right: 3%;
 }
 
+li {
+    font-family: 'Antic Slab';
+}
+
 .container {
     background-color: #ffffff;
     max-width: 1000px;
