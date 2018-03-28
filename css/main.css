@@ -1,11 +1,20 @@
+#desktopfooter {
+  display: none;
+}
 table {
     width: 100%;
     text-align: center;
     font-family: 'Antic Slab';
+    padding: 3% 0 3% 0;
 }
 
 i {
     padding: 1%;
+}
+
+#mobilefooter div {
+    margin: auto;
+    padding-bottom: 1%;
 }
 
 h1 {
@@ -13,6 +22,27 @@ h1 {
 }
 
 h2 {
-    font-family: 'Fijalla One';
+    font-family: 'Antic Slab';
     text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
+
+h3 {
+    font-family: 'Antic Slab';
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+@media (min-width: 750px) {
+
+    #mobilefooter {
+        display: none;
+    }
+
+    #desktopfooter {
+        display: block;
+    }
+
+}
+
