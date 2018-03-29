@@ -1,13 +1,18 @@
 
 /* Overall wrapper */
 .monthly {
-	background: #F3F3F5;
+	background: #ffffff;
+	width: 90%;
+	margin: auto;
+	border: #000000 1px solid;
 	color: #545454;
+	padding-top: 1%;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
 	position: relative;
+	font-family: 'Antic Slab';
 }
 
 /* Top bar containing title, navigation, and buttons */
@@ -233,7 +238,7 @@
 /* Current day style */
 .monthly-today .monthly-day-number {
 	color: #FFF;
-	background: #EA6565;
+	background: #98afc7;
 	border-radius: 0.75em;
 	top: 0.08em;
 	left: 0.05em;
@@ -268,7 +273,7 @@
 	height: 0.5em;
 	border-radius: 0.25em;
 	vertical-align: middle;
-	background: #7BA7CE;
+	background: #98afc7;
 }
 
 .monthly-day .monthly-event-indicator span {
