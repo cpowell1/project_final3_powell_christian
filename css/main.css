@@ -130,18 +130,37 @@ i {
     background-color: #e3e3e3;
     padding: 10% 0 10% 0;
 }
-#events p {
-  max-width: 325px;
+
+#events p,
+#training p {
+    max-width: 325px;
+}
+
+#boarding p,
+#grooming p,
+#daycare p {
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+#boarding h2,
+#grooming h2,
+#daycare h2 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4%;
 }
 
 button {
-  margin-left: 3%;
-  display: block;
-  padding: 2%;
-  width: 40%;
-  max-width: 200px;
-  font-size: 1.2rem;
-  font-family: 'Shadows Into Light';
+    margin-left: 3%;
+    display: block;
+    padding: 2%;
+    width: 40%;
+    max-width: 200px;
+    font-size: 1.2rem;
+    font-family: 'Shadows Into Light';
 }
 
 @media (min-width: 750px) {
