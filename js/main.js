@@ -9,4 +9,3 @@ $(document).ready(function () {
 $(window).load(function () {
     $('#mycalendar').monthly();
 });
-
