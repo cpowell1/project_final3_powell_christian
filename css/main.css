@@ -53,9 +53,9 @@ li {
 }
 
 header img {
-    max-width: 150px;
+    max-width: 175px;
     margin: auto;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     display: block;
 }
 
@@ -75,7 +75,7 @@ header img {
 
 #nav li {
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 #nav a {
@@ -94,6 +94,7 @@ header img {
 
 #awards {
     padding: 5% 0 5% 0;
+    background-color: #e3e3e3;
 }
 
 #awards h1 {
