@@ -185,6 +185,8 @@ form {
     margin: auto;
     padding: 0% 0 2% 0;
     font-family: 'Antic Slab';
+    background-color: white;
+    max-width: 600px;
 }
 
 form h1 {
