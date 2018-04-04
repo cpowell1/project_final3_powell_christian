@@ -6,4 +6,7 @@ $(window).load(function () {
     $('#mycalendar').monthly();
 });
 
-$('.img-holder').imageScroll();
+$('.img-holder').imageScroll({
+    holderMinHeight: 800,
+});
+
