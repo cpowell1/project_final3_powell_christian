@@ -7,6 +7,6 @@ $(window).load(function () {
 });
 
 $('.img-holder').imageScroll({
-    holderMinHeight: 800,
+    holderMinHeight: 600,
 });
 

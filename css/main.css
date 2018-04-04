@@ -82,6 +82,13 @@ header img {
     color: black;
 }
 
+#homepage {
+    margin: auto;
+    width: 90%;
+    padding: 3% 0 3% 0;
+    display: block;
+}
+
 #about {
     padding: 5% 0 5% 0;
 }
