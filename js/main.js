@@ -6,3 +6,4 @@ $(window).load(function () {
     $('#mycalendar').monthly();
 });
 
+$('.img-holder').imageScroll();
