@@ -1,5 +1,6 @@
-var submit1 = document.getElementById('submit1');
-submit1.addEventListener('click', function () {
+var formSubmit = document.getElementById('reservationsform');
+formSubmit.addEventListener('submit', function (event) {
+    event.preventDefault();
     var submitElement = document.createElement('article');
     submitElement.innerHTML = '<p>Thanks for your submission. We will respond shortly!</p>';
     document.getElementById('reservationsform').appendChild(submitElement);
