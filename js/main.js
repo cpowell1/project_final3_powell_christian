@@ -15,6 +15,7 @@ $('h2').mouseover(function () {
     $(this).fadeIn(600);
 });
 
+
 var formSubmit = document.getElementById('reservationsform');
 formSubmit.addEventListener('submit', function (event) {
     event.preventDefault();
@@ -22,5 +23,4 @@ formSubmit.addEventListener('submit', function (event) {
     submitElement.innerHTML = '<p>Thanks for your submission. We will respond shortly!</p>';
     document.getElementById('reservationsform').appendChild(submitElement);
 });
-
 
