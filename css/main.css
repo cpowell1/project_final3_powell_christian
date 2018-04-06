@@ -356,6 +356,10 @@ textarea {
         float: left;
         width: 50%;
     }
+
+    .beefup {
+        width: 50%;
+    }
 }
 
 @media (min-width: 1000px) {
