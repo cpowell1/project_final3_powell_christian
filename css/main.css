@@ -339,7 +339,7 @@ textarea {
     .paragraphs {
         float: right;
         width: 35%;
-        padding: 3% 5% 5% 5%;
+        padding: 1% 5% 5% 5%;
     }
 
     #groomingimg {
@@ -355,6 +355,7 @@ textarea {
     #eventsimg {
         float: left;
         width: 50%;
+        margin-left: 20px;
     }
 
     .beefup {
