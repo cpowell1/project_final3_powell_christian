@@ -82,10 +82,14 @@ header img {
     color: black;
 }
 
+main h1 {
+    padding-top: 1%;
+}
+
 #homepage {
     margin: auto;
     width: 90%;
-    padding: 3% 0 3% 0;
+    padding: 1% 0 3% 0;
     display: block;
 }
 
