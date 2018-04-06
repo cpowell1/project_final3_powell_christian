@@ -305,6 +305,21 @@ textarea {
 
 }
 
+@media (min-width: 600px) {
+
+    #nav {
+        padding: 0 0 1% 0;
+    }
+
+    #boarding,
+    #grooming,
+    #daycare,
+    #training,
+    #events {
+        padding-top: 1%;
+    }
+}
+
 @media (min-width: 800px) {
 
     #boardingimg {
