@@ -190,7 +190,6 @@ button {
 }
 
 #formcontainer {
-    background-color: #e3e3e3;
     padding: 5% 0 5% 0;
 }
 
@@ -233,11 +232,6 @@ textarea {
     background-color: #e3e3e3;
     margin-top: 4%;
     margin-bottom: 4%;
-}
-
-#contact {
-    background-color: #e3e3e3;
-    padding-top: 2%;
 }
 
 #boarding img {
@@ -287,6 +281,16 @@ textarea {
     max-width: 500px;
 }
 
+#contactinfo {
+    background-color: #e3e3e3;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 
 
 @media (min-width: 750px) {
@@ -333,11 +337,18 @@ textarea {
         float: left;
         width: 50%;
     }
+}
 
-    .clearfix {
-        content: "";
-        clear: both;
-        display: table;
+@media (min-width: 1000px) {
+
+    #contactimg {
+        float: left;
+        width: 50%;
+    }
+
+    #formcontainer {
+        float: right;
+        width: 45%;
     }
 }
 
