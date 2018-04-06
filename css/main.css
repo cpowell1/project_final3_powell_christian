@@ -173,7 +173,8 @@ i {
 #grooming p,
 #daycare p {
     max-width: 400px;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
+    padding-top: 1%;
 }
 
 button {
@@ -285,6 +286,8 @@ textarea {
     max-width: 500px;
 }
 
+
+
 @media (min-width: 750px) {
 
     #mobilefooter {
@@ -295,5 +298,45 @@ textarea {
         display: block;
     }
 
+}
+
+@media (min-width: 800px) {
+
+    #boardingimg {
+        float: left;
+        width: 50%;
+        padding: 1% 0 0 3%;
+    }
+
+    #boarding h2 {
+        margin-bottom: 0%;
+    }
+
+    .paragraphs {
+        float: right;
+        width: 35%;
+        padding: 3% 5% 5% 5%;
+    }
+
+    #groomingimg {
+        float: left;
+        width: 55%;
+    }
+
+    #daycareimg {
+        float: left;
+        width: 50%;
+    }
+
+    #eventsimg {
+        float: left;
+        width: 50%;
+    }
+
+    .clearfix {
+        content: "";
+        clear: both;
+        display: table;
+    }
 }
 
