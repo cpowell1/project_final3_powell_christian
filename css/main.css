@@ -116,6 +116,8 @@ main h1 {
 
 #desktopfooter {
     display: none;
+    background-color: #1c355e;
+    color: white;
 }
 
 table {
@@ -130,7 +132,7 @@ i {
 }
 
 i:hover {
-  color: #e3e3e3;
+    color: #1c355e;
 }
 
 #contactinfo h2 {
@@ -201,7 +203,13 @@ button {
     width: 40%;
     max-width: 200px;
     font-size: 1.2rem;
+    background-color: #c5cfdb;
     font-family: 'Shadows Into Light';
+}
+
+button:hover {
+    background-color: #1c355e;
+    color: white;
 }
 
 #formcontainer {
@@ -244,13 +252,13 @@ textarea {
 }
 
 #submit1 {
-    background-color: #e3e3e3;
+    background-color: #c5cfdb;
     margin-top: 4%;
     margin-bottom: 4%;
 }
 
 #submit1:hover {
-    background-color: #555555;
+    background-color: #1c355e;
     color: white;
 }
 
