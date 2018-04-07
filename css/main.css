@@ -81,6 +81,10 @@ header img {
     color: black;
 }
 
+#nav li:hover {
+    font-size: 1.1rem;
+}
+
 main h1 {
     padding-top: 1%;
 }
@@ -245,6 +249,11 @@ textarea {
     margin-bottom: 4%;
 }
 
+#submit1:hover {
+    background-color: #555555;
+    color: white;
+}
+
 .serviceimg {
     width: 90%;
     margin: auto;
@@ -327,6 +336,11 @@ textarea {
         margin-top: 5%;
         width: 70%;
         padding: 4%;
+    }
+
+    #submit1 {
+        width: 30%;
+        padding: 2%;
     }
 }
 
