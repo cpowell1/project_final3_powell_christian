@@ -2,8 +2,8 @@
 #Links
  * [Github](https://github.com/cpowell1/project_final3_powell_christian)
  * [Web Host](http://christiantpowell.org/project_final3_powell_christian/)
- * [W3C Validator](https://validator.w3.org/nu/?doc=http%3A%2F%2Fchristiantpowell.org%2Fproject_resume_powell_christian%2F)
- * [HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fchristiantpowell.org%2Fproject_resume_powell_christian%2F)
+ * [W3C Validator](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.christiantpowell.org%2Fproject_final3_powell_christian%2F)
+ * [HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.christiantpowell.org%2Fproject_final3_powell_christian%2F)
  
 ##Resources
  * [Parallax Image Scroll](https://github.com/pederan/Parallax-ImageScroll)
