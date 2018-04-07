@@ -12,7 +12,6 @@ h2 {
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
-    margin-left: 3%;
 }
 
 h3 {
@@ -124,6 +123,14 @@ table {
 
 i {
     padding: 1%;
+}
+
+i:hover {
+  color: #e3e3e3;
+}
+
+#contactinfo h2 {
+    padding-top: 2%;
 }
 
 #mobilefooter div {
@@ -325,21 +332,7 @@ textarea {
 
 @media (min-width: 1000px) {
 
-    #contactimg {
-        float: left;
-        width: 50%;
-    }
-
-    #formcontainer {
-        float: right;
-        width: 45%;
-    }
-
-    #boarding h2,
-    #grooming h2,
-    #training h2,
-    #daycare h2,
-    #events h2 {
+    h2 {
         font-size: 2rem;
     }
 }
