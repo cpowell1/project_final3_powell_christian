@@ -298,16 +298,6 @@ textarea {
 
 @media (min-width: 800px) {
 
-    #boardingimg {
-        float: left;
-        width: 50%;
-        padding: 1% 0 0 3%;
-    }
-
-    #boarding h2 {
-        margin-bottom: 0%;
-    }
-
     .paragraphs {
         float: right;
         width: 35%;
@@ -318,6 +308,7 @@ textarea {
         float: left;
         width: 55%;
         padding-left: 1%;
+        margin-bottom: 3%;
     }
 
     .beefup {
@@ -342,6 +333,14 @@ textarea {
     #formcontainer {
         float: right;
         width: 45%;
+    }
+
+    #boarding h2,
+    #grooming h2,
+    #training h2,
+    #daycare h2,
+    #events h2 {
+        font-size: 2rem;
     }
 }
 
