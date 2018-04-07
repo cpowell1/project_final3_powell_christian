@@ -37,6 +37,15 @@ li {
     font-family: 'Antic Slab';
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
 .container {
     background-color: #ffffff;
     max-width: 1000px;
