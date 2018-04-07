@@ -317,6 +317,17 @@ textarea {
     width: 1px;
 }
 
+/* EC Styling */
+#orderform {
+    padding: 3% 0 3% 0;
+}
+
+select {
+    margin: auto;
+    display: block;
+    margin-bottom: 2%;
+}
+
 @media (min-width: 750px) {
 
     #mobilefooter {
