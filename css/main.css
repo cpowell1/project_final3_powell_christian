@@ -132,7 +132,12 @@ i {
 }
 
 i:hover {
-    color: #1c355e;
+    color: #e3e3e3;
+}
+
+.social {
+    margin: auto;
+    text-align: center;
 }
 
 #contactinfo h2 {
