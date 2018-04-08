@@ -30,3 +30,21 @@ if (formSubmit !== null) {
         document.getElementById('reservationsform').appendChild(submitElement);
     });
 }
+
+//EC Javascript
+var formInfo = document.getElementById('orderform');
+var nameField = document.getElementById('inputValue1');
+var serviceType = document.getElementById('inputValue2');
+var packageType = document.getElementById('inputValue3');
+var numberofDays = document.getElementById('inputValue4');
+var desiredDate = document.getElementById('inputValue5');
+
+formInfo.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    var displayMessage = document.createElement('p');
+
+    displayMessage.innerHTML = nameField.value + ', you have made a request for ' + serviceType.value + ' with the ' + packageType.value + ' package. You want to reserve this service for ' + desiredDate.value + ' for ' + numberofDays.value + ' days.';
+
+    document.getElementById('orderform').appendChild(displayMessage);
+});
