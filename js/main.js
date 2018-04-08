@@ -53,5 +53,9 @@ formInfo.addEventListener('change', function (event) {
     displayMessage.innerHTML = nameField.value + ', you have made a request for ' + serviceType.value + ' with the ' + packageType.value + ' package. You want to reserve this service for ' + desiredDate.value + ' for ' + numberofDays.value + ' days.';
 
     document.getElementById('orderform').appendChild(displayMessage);
+
+    displayMessage.addEventListener('click', function () {
+        displayMessage.remove();
+    });
 });
 
