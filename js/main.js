@@ -14,6 +14,12 @@ $(document).ready(function () {
         $(this).fadeOut(100);
         $(this).fadeIn(600);
     });
+
+    $('#orderform').submit(function () {
+        $('#orderform').remove();
+        var thankYou = $('p').innerHTML = '<p>Thank you for your order, we will get back with you shortly!</p>';
+        $('#form').append(thankYou);
+    });
 });
 
 //This is my custome Javascript code to add a message for when users submit the form
@@ -48,3 +54,4 @@ formInfo.addEventListener('change', function (event) {
 
     document.getElementById('orderform').appendChild(displayMessage);
 });
+
