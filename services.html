@@ -194,25 +194,54 @@
           <label>Phone Number</label>
           <input type="text" value="" />
 
-          <label>Enquiry Type</label>
+          <label>Service Type</label>
           <select>
-  			       <option value="option1"></option>
-  			       <option value="option2">Appointment Request</option>
-          	   <option value="option3">General Questions & Information</option>
+               <option value=""></option>
+  			       <option value="option1">Boarding</option>
+  			       <option value="option2">Grooming</option>
+          	   <option value="option3">Daycare</option>
+               <option value="option3">Training</option>
+               <option value="option3">Event Signup</option>
           </select>
-
-          <label>Message</label>
-          <textarea></textarea>
           
-          <label>Event Date</label>
+          <label>Package Type</label>
+          <select>
+            <optgroup label="Boarding">
+              <option value="option1"></option>
+              <option value="option2">Perfect Puppy I</option>
+              <option value="option3">Perfect Puppy II</option>
+              <option value="option3">My Little Human</option>
+            </optgroup>
+              
+            <optgroup label="Grooming">
+              <option value="option2">Just the Basics</option>
+              <option value="option3">Lookin' Great for an Important Date</option>
+            </optgroup>
+            
+            <optgroup label="Daycare">
+              <option value="option2">Single Day Reservation</option>
+              <option value="option3">Monthly Package Purchase</option>
+            </optgroup>
+              
+            <optgroup label="Training">
+              <option value="option2">Group Class</option>
+              <option value="option3">Private Session</option>
+            </optgroup>
+          </select>
+          
+          <label>Number of Days</label>
+          <select>
+              <option value="option1">1</option>
+              <option value="option2">2</option>
+              <option value="option3">3</option>
+              <option value="option3">4</option>
+          </select>
+          
+          <label>Desired Service Date</label>
           <input type="text" value="" />
           
-          <label>Best Contact Method</label>
-          <select>
-    		      <option value="option1"></option>
-    		      <option value="option2">Email</option>
-          	  <option value="option3">Phone</option>
-          </select>
+          <label>Additional Information or Questions</label>
+          <textarea></textarea>
           
   				<input type="submit" name="submit" value="Submit" id="submit1" />
 
