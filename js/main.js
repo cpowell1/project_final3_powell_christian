@@ -14,7 +14,7 @@ $(document).ready(function () {
         $(this).fadeOut(100);
         $(this).fadeIn(600);
     });
-
+    //EC form jQuery
     $('#orderform').submit(function () {
         $('#orderform').remove();
         var thankYou = $('p').innerHTML = '<p>Thank you for your order, we will get back with you shortly!</p>';
