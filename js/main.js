@@ -39,7 +39,7 @@ var packageType = document.getElementById('inputValue3');
 var numberofDays = document.getElementById('inputValue4');
 var desiredDate = document.getElementById('inputValue5');
 
-formInfo.addEventListener('submit', function (event) {
+formInfo.addEventListener('change', function (event) {
     event.preventDefault();
 
     var displayMessage = document.createElement('p');
