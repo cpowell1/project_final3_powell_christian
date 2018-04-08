@@ -318,8 +318,13 @@ textarea {
 }
 
 /* EC Styling */
-#orderform {
+#orderformsection {
     padding: 3% 0 3% 0;
+}
+
+#orderform {
+    width: 95%;
+    padding: 2% 0 0 2%;
 }
 
 select {
